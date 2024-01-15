@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".Third_Activity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView_Id_3"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:textStyle="bold"
+            android:typeface="sans"
+            android:textSize="25sp"
+            />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        >
+ <!-- ................. 1st LayOut ..................................................  -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            >
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:src="@drawable/m1"
+                android:padding="1dp"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:src="@drawable/m2"
+                android:padding="1dp"
+                />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:src="@drawable/m3"
+
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:src="@drawable/mehedi"
+
+                />
+
+
+
+        </LinearLayout>
+
+<!-- ...................... 2nd LayOut .............................................  -->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:src="@drawable/m8"
+                android:padding="1dp"
+                />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:src="@drawable/m7"
+                android:padding="1dp"
+                />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:src="@drawable/m5"
+
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:src="@drawable/m9"
+
+                />
+
+
+        </LinearLayout>
+ <!-- ...................................................................  -->
+
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginBottom="10dp"
+            >
+            <Button
+                android:id="@+id/Previous_button_Id_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Previous"
+                android:textSize="20sp"
+
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Mehedi</string>
+    <string name="titel_Text">Alert Dialog</string>
+    <string name="buttonText">Exit</string>
+    <string name="messageText">Do you want to exit ?</string>
+
+    <string name="Profily_Text">
+
+        I am a Android Developer.\nI am completing undergraduate from Computer Science and Engineering(CSE). I have special skills in Android development and SQL Server database. I have strong technical skills as well.\n\n
+
+        Skills: HTML-5 / CSS-3 / XML / C / C++ / Java / SQL Server \n\n
+
+        I’m currently learning Android \n
+        I’m looking to collaborate on Github \n
+
+    </string>
+</resources>
